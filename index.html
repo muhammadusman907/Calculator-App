@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caculator App</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./app.js" defer></script>
+</head>
+
+<body>
+
+    <div class="parent">
+        <div class="child1">
+            <input type="text" id="search" placeholder="0">
+        </div>
+        <div class="chid2">
+            <button class="btn1" onclick="clearValue('')">c</button>
+            <button class="btn1" onclick="delValue('')">del</button>
+        
+        </div>
+        <div class="chid4">
+            <button class="btn" onclick="getValue('7')">7</button>
+            <button class="btn" onclick="getValue('8')">8</button>
+            <button  class="btn"onclick="getValue('9')">9</button>
+            <button class="btn" onclick="getValue('*')">*</button>
+        </div>
+        <div class="chid5">
+            <button class="btn" onclick="getValue('6')">6</button>
+            <button class="btn" onclick="getValue('5')">5</button>
+            <button class="btn" onclick="getValue('4')">4</button>
+            <button class="btn" onclick="getValue('/')">/</button>
+        </div>
+        <div class="chid6">
+            <button class="btn" onclick="getValue('3')">3</button>
+            <button class="btn" onclick="getValue('2')">2</button>
+            <button class="btn" onclick="getValue('1')">1</button>
+            <button class="btn" onclick="getValue('+')">+</button>
+        </div>
+        <div class="chid7">
+            <button class="btn" onclick="getValue('0')">0</button>
+            <button class="btn"onclick="resultEqual()">=</button>
+            <button class="btn" onclick="getValue('-')">-</button>
+            <button class="btn" onclick="getValue('%')">%</button>
+
+        </div>
+    </div>
+
+
+</body>
+
+</html>
